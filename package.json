@@ -1,0 +1,21 @@
+{
+  "name": "mathjax-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.ts",
+  "scripts": {
+    "start": "ts-node --dir . script.ts",
+    "watch": "while (true); do ts-node --dir . script.ts; sleep 10; echo \"...\"; done",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjax": "3.1.2",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  }
+}
